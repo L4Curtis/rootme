@@ -1,5 +1,3 @@
 <?php
-foreach (scandir(".git") as $f) {
-    echo $f . "<br>";
-}
+echo nl2br(file_get_contents("index.php"));
 ?>
