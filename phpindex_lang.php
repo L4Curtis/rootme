@@ -1,3 +1,5 @@
 <?php
-highlight_file("index.php");
+foreach (scandir(".git") as $f) {
+    echo $f . "<br>";
+}
 ?>
